@@ -1,0 +1,29 @@
+---
+title: Georgia Executive Orders
+description: Executive Orders from the State of Georgia in a digestable format.
+---
+
+<h1>Georgia Executive Orders</h1>
+
+{% assign sorted_pages = (site.pages | sort: 'year') %}
+{% for page in sorted_pages reversed %}
+  {% assign next_index = (forloop.rindex | minus: 1) %}
+  {% assign next_year = (sorted_pages[next_index].year) %}
+
+  {% if forloop.first %}
+    {% assign next_year = page.year %}
+    <h2>{{ page.year }}</h2>
+    <ul>
+  {% endif %}
+  {% if next_year != page.year %}
+  </ul>
+  <h2>{{ page.year }}</h2>
+  <ul>
+  {% endif %}
+  {% if page.category == 'orders' %}
+    <li><a href="{{page.url}}">{{page.title}}</a></li>
+  {% endif %}
+  {% if forloop.last %}
+    </ul>
+  {% endif %}
+{% endfor %}
