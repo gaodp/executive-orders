@@ -13,14 +13,19 @@ fi
 textOrders=$(ls txt/$year)
 for textOrder in $textOrders; do
   base=$(basename $textOrder .txt)
-  rm orders/$year/$base.md
+  printf "" > orders/$year/$base.md
 
-  printf "%s\n%s\n%s\n%s\n%s\n" \
+  printf "%s\n%s\n%s\n%s\n%s\n%s\n\n%s" \
     "---" \
     "title: $base" \
     "category: orders" \
     "year: $year" \
+    "layout: order" \
     "---" \
+    "<pre>" \
     >> orders/$year/$base.md
+
   cat txt/$year/$textOrder >> orders/$year/$base.md
+
+  printf "%s\n" "</pre>" >> orders/$year/$base.md
 done

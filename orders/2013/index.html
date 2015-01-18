@@ -1,0 +1,14 @@
+---
+title: 2013 Executive Orders Archive
+layout: default
+---
+
+<h2>Index of 2013 Orders</h2>
+
+<ul>
+{% for page in site.pages reversed %}
+  {% if page.year == 2013 %}
+    <li><a href="{{page.url}}">{{page.title}}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>

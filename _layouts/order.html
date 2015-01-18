@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Georgia Executive Orders Archive</title>
+
+    <meta name="description" value="A text formatted, searchable archive of Georgia Executive Orders">
+
+    <link rel="stylesheet" href="/foundation/css/normalize.css">
+    <link rel="stylesheet" href="/foundation/css/foundation.css">
+    <link rel="stylesheet" href="/css/executive-orders.css">
+  </head>
+  <body>
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/">Georgia Executive Order Archive</a></h1>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="left">
+          <li><a href="/">Home</a></li>
+          <li><a href="/orders/2015">2015</a></li>
+          <li><a href="/search.html">Search</a></li>
+        </ul>
+      </section>
+    </nav>
+
+    <div class="row">
+      <header class="small-12">
+        <h2>Executive Order Detail</h2>
+
+        <div class="panel radius">
+          <p>
+            This executive order you see below is from the <a href="/orders/{{ page.year }}">year {{ page.year }}</a>.
+          </p>
+
+          <p>
+            The content you see below is the result of an automated analysis of the
+            <a href="http://georgia-executive-orders.s3-website-us-east-1.amazonaws.com/{{ page.year }}/{{ page.title }}.pdf">original document</a>.
+            As a result it there may be artifacts or inaccuracies not present in the original. For
+            more information, please visit the <a href="https://github.com/gaodp/executive-orders">executive-orders project</a>.
+          </p>
+        </div>
+      </header>
+      <div class="small-12">
+        {{ content }}
+      </div>
+    </div>
+
+    <script src="/foundation/js/foundation.min.js" type="text/javascript"></script>
+  </body>
+</html>
