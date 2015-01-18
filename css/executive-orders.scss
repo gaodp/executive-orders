@@ -12,3 +12,30 @@ body {
 h1 {
   text-align: center;
 }
+
+#submit-search {
+  padding-top: 7px;
+  background: #f5ad58;
+}
+
+a:link, a:visited {
+  color: #f5ad58;
+}
+
+a:hover, a:active {
+  color: #ae4b33;
+}
+
+.top-bar {
+  .name h1 {
+    font-size: 1.42rem;
+  }
+
+  ul li > a {
+    font-size: 1.14rem;
+  }
+}
+
+pre {
+  white-space: pre-wrap;
+}
