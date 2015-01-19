@@ -20,6 +20,9 @@
         <div class="panel radius">
           <p>
             This executive order you see below is from the <a href="/orders/{{ page.year }}">year {{ page.year }}</a>.
+            {% if page.date %}
+            It was signed by the Governor on {{ page.date | date: "%A, %b %d" }}.
+            {% endif %}
           </p>
 
           <p>
