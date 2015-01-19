@@ -29,6 +29,8 @@ page.open(url, function() {
       metadataCollection = page.evaluate(function() {
         return $(".view-executive-orders .views-table tr").map(function(i, elem) {
           var dateText = $(elem).find("td:first").text().trim(),
+              dateParts = dateText.substr(0, dateText.length-3).split("."),
+              date = "20" + dateParts[2] + "-" + dateParts[0] + "-" + dateParts[1],
               href = $(elem).find("a").attr("href"),
               urlParts = href.split("/"),
               baseName = urlParts[urlParts.length-1].replace(".pdf", ""),
@@ -36,7 +38,7 @@ page.open(url, function() {
 
           returnObject[baseName] = {
             'title': $(elem).find("a").text().trim(),
-            'date': dateText.substr(0, dateText.length-3).replace(/\./g, "/")
+            'date': date
           }
 
           return returnObject;
