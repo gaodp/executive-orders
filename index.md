@@ -32,7 +32,12 @@ Open Data Project.
 
 <h3>Contribute</h3>
 
-TODO
+<p>
+The executive orders archive is an open source project hosted on GitHub and operated by the
+Georgia Open Data Project. We welcome all varieties of contributions, including cleanup of the text
+sources, notification of executive orders that are missing from our archive, or just spreading
+the word that we exist.
+</p>
 
 </div>
 </div>
