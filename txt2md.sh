@@ -15,9 +15,10 @@ for textOrder in $textOrders; do
   base=$(basename $textOrder .txt)
   printf "" > orders/$year/$base.md
 
-  printf "%s\n%s\n%s\n%s\n%s\n%s\n\n%s" \
+  printf "%s\n%s\n%s\n%s\n%s\n%s\n\n%s\n%s\n" \
     "---" \
-    "title: $base" \
+    "title: \"$base\"" \
+    "originalname: \"$base\"" \
     "category: orders" \
     "year: $year" \
     "layout: order" \
