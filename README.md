@@ -1,5 +1,7 @@
 # Executive Orders of the State of Georgia
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gaodp/executive-orders?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository hosts the Executive Orders of the State of Georgia in text
 format for consumption on the internet and for maximum searchability. Also
 included are some scripts that are designed to facilitate the process of
