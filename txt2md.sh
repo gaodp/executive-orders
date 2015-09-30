@@ -23,7 +23,7 @@ for textOrder in $textOrders; do
     "layout: order" \
     >> orders/$year/$base.md
 
-  cat metadata/$year/$base >> orders/$year/$base.md
+  cat _metadata/$year/$base >> orders/$year/$base.md
   echo "---" >> orders/$year/$base.md
   echo "<pre>" >> orders/$year/$base.md
 

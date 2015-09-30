@@ -55,7 +55,7 @@ page.open(url, function() {
       var metadata = metadataCollection[key];
 
       for (filename in metadata) {
-        var filepath = "metadata/" + year + "/" + filename,
+        var filepath = "_metadata/" + year + "/" + filename,
             content = '';
 
         for (key in metadata[filename]) {
