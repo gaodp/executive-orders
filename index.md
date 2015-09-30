@@ -7,11 +7,13 @@ layout: default
 ## Georgia Executive Orders Archive
 
 Executive orders are an important part of the heartbeat of any government. In Georgia, those
-executive orders are published online, but are stored in scanned PDF files that aren't searchable
-by Google or useful for analysis by computer software. To boot, the Georgia government recently had
-a debacle where [all the orders mysteriously disappeared for a few days](http://sunlightfoundation.com/blog/2014/08/06/the-case-of-the-missing-executive-orders-a-lack-of-transparency-in-georgias-government/)
-In response to this, the Georgia Executive Orders Archive was created as a program of the Georgia
-Open Data Project.
+executive orders are published online, but are stored in scanned PDF files that aren't searchable.
+To help assist in the research and archival of Executive orders, the Executive Orders Archive
+was created as a product of the Georgia Open Data Project to publish executive orders in a
+searchable, text form and provide a redundant copy of the PDF versions of executive orders.
+
+This project is implemented using GitHub pages, and we make copies of the original executive
+orders available via PDF, stored on Amazon S3.
 
 <div class="row">
 <div class="columns small-12 medium-6 archive-directory">
