@@ -14,8 +14,8 @@ if [ ! -d "pngs/$year" ]; then
   mkdir pngs/$year
 fi
 
-if [ ! -d "txt/$year" ]; then
-  mkdir txt/$year
+if [ ! -d "_txt/$year" ]; then
+  mkdir _txt/$year
 fi
 
 echo "Retrieving PDFs for year" $year
@@ -40,5 +40,5 @@ echo "Converting PNG images to text files..."
 pngs=$(ls pngs/$year)
 for pngname in $pngs; do
   base=$(basename $pngname .png)
-  tesseract pngs/$year/$pngname txt/$year/$base
+  tesseract pngs/$year/$pngname _txt/$year/$base
 done
