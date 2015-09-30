@@ -1,0 +1,57 @@
+ 
+
+THE STATE OF GEORGIA
+
+EXECUTIVE ORDER
+
+ 
+
+BY THE GOVERNOR:
+
+WHEREAS:
+
+WHEREAS:
+
+WHEREAS:
+
+WHEREAS:
+
+WHEREAS:
+
+ORDERED:
+
+The continuous and efficient operation of state government data systems
+is both Vital and necessary to the mission of providing governmental
+services in Georgia; and
+
+The Georgia Technology Authority and the various state agencies have the
+responsibility for providing critically important, coordinated, robust and
+effective information technology security in order to protect the state’s
+data, to protect the citizens and to ensure the efficient operation of state
+government; and
+
+Information technology security risks continue to evolve and-grow, with
+currently over a million cybersecurity events on state government systems
+each day, which present a danger of disruption, costly financial damage
+and even bodily harm if not adequately managed; and
+
+Effective information technology security risk management requires inter-
+agency coordination, reporting, training, sharing of data and information
+about systems, and a consolidated view of the state’s risks, readiness,
+constraints, priorities, and responsiveness to risk remediation; and .
+
+It is in the best interest of the state to encourage coordination through the
+engagement of the highest level of management at those state agencies
+which are most directly involved in information technology risk reduction,
+and to provide for a coordinated and structured review to ensure that state
+government’s cybersecurity risks are being managed appropriately]
+
+NOW, THEREFORE, PURSUANT TO THE AUTHORITY VESTED IN ME AS
+GOVERNOR OF THE STATE OF GEORGIA, IT IS HEREBY
+
+That, there is created a State Government Systems Cybersecurity Review
+Board (herein referred to as the Cybersecurity Board) to focus internally
+on the protection and privacy of state data.
+
+IT IS FURTHER
+
