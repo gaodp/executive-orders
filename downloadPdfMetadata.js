@@ -45,7 +45,7 @@ page.open(url, function() {
         });
       });
     } else {
-      throw new Execption("2011 and 2012 aren't supported yet.");
+      throw new Exception("2011 and 2012 aren't supported yet.");
     }
 
     for (key in metadataCollection) {
